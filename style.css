@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Cedarville+Cursive&family=Poppins:wght@400;500&family=Roboto:wght@500&display=swap');
+body{
+    background-color: #131313;
+    color: whitesmoke;
+    margin: 0;
+    
+    
+}
+h1{
+
+    text-align: center;
+    margin-top: 30px;
+    font-size: xx-large;
+}
+.clock{
+    /* */
+position: absolute;/*  postion ko change karne ke liye*/
+top:50%; /* uper say niche aaye gaa 50 %*/
+left:50%; /*left say 50% hogaa */
+transform : translateX(-50%) translateY(-50%); /* center may lane ke liye x or Y axis -50% */
+display: flex; /* ek line may line may lane ke liye flex */
+font-family: 'Poppins', sans-serif;
+border: solid 20px whitesmoke;
+border-radius: 15px;
+padding: 10px;
+
+
+}
+.time{
+
+   background-color: #090909; 
+   color: #ffffff;
+   font-size: 100px;
+   width:150px;
+   margin: 0 10px;
+   text-align: center;
+   border: solid;
+   border-radius: 19px;
+}
+.heading{
+    color: #f5f5f5;
+    font-size: 18px;
+    text-transform: uppercase;
+    text-align: center;
+    
+}
